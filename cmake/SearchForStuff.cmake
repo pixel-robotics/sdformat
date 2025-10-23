@@ -117,12 +117,12 @@ endif()
 
 ################################################
 # Find ruby executable to produce xml schemas
-find_program(RUBY ruby)
-if (NOT RUBY)
-    BUILD_ERROR ("Ruby version 1.9 is needed to build xml schemas")
-else()
-    message(STATUS "Found ruby executable: ${RUBY}")
-endif()
+#find_program(RUBY ruby)
+#if (NOT RUBY)
+#    BUILD_ERROR ("Ruby version 1.9 is needed to build xml schemas")
+#else()
+#    message(STATUS "Found ruby executable: ${RUBY}")
+#endif()
 
 #################################################
 # Macro to check for visibility capability in compiler
